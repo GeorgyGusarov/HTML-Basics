@@ -1,0 +1,708 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <meta name="description" content="HTML Basics Web Page">
+  <meta name="keywords" content="html, web, webdev">
+  <meta name="author" content="George Gusarov">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="shortcut icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <h1>Hello world!</h1>
+  <h2>Hello world!</h2>
+  <h3>Hello world!</h3>
+  <h4>Hello world!</h4>
+  <h5>Hello world!</h5>
+  <h6>Hello world!</h6>
+  <hr>
+
+  <p>This is paragraph</p>
+  <address>made by George Gusarov</address>
+  <hr>
+
+  <q>Yes, I wrote this crap</q>
+  <address>made by George Gusarov</address>
+  <hr>
+
+  <blockquote>
+    <p id="bottom">
+      Лучший курс из тех, что я видел! и что самое интересное, таких знаний не дают даже на платных курсах, а тут - "вот вам пожалуйста"
+      Очень нравится твоё внимание к важным деталям и разъяснениям на этот счёт! Сразу видно, что человек разбирается в своём деле.
+      Не сбавляй обороты, у тебя классно получается!
+      Огромное спасибо за знания!
+    </p>
+  </blockquote>
+  <hr>
+
+  <time>01-01-1995</time>
+  <br>
+  <time datetime="01-01-1995">just date</time>
+  <hr>
+
+  <!--comment ctrl + shift + /-->
+
+  <b>bold text</b>
+  <br>
+  <i>italic text</i>
+  <br>
+  <tt>typing text</tt>
+  <br>
+  <s>deleted text</s>
+  <hr>
+
+  <strong>some text</strong>
+  <br>
+  <em>some text</em>
+  <hr>
+
+  <small>small</small>
+  <br>
+  <h2>
+    To know HTML <small>semantic</small> is important
+  </h2>
+  <hr>
+
+  <big>big</big>
+  <br>
+  <h2>
+    To know HTML <big>semantic</big> is important
+  </h2>
+  <hr>
+
+  <del>deleted</del>
+  <br>
+  <h2>
+    To know HTML <del>semantic</del> is important
+  </h2>
+  <hr>
+
+  <ins>inserted</ins>
+  <br>
+  <h2>
+    To know HTML <ins>semantic</ins> is important
+  </h2>
+  <hr>
+
+  <sub>subscripted</sub>
+  <br>
+  <h2>
+    To know HTML <sub>semantic</sub> is important
+  </h2>
+  <h2>
+    H<sub>2</sub>O
+  </h2>
+  <hr>
+
+  <sup>superscripted</sup>
+  <br>
+  <h2>
+    To know HTML <sup>semantic</sup> is important
+  </h2>
+  <h2>
+    X<sup>2</sup>=9
+  </h2>
+  <hr>
+
+<!--Unordered list-->
+  <ul>
+    <li>Front-end Developer</li>
+    <li>Back-end Developer</li>
+    <li>Full-stack Developer</li>
+  </ul>
+  <hr>
+
+<!--Ordered list-->
+  <ol>
+    <li>Front-end Developer</li>
+    <li>Back-end Developer</li>
+    <li>Full-stack Developer</li>
+  </ol>
+  <hr>
+
+<!--Start ordered list from...-->
+  <ol start="10">
+    <li>Front-end Developer</li>
+    <li>Back-end Developer</li>
+    <li>Full-stack Developer</li>
+  </ol>
+  <hr>
+
+  <!--Reversed list-->
+  <ol reversed>
+    <li>Front-end Developer</li>
+    <li>Back-end Developer</li>
+    <li>Full-stack Developer</li>
+  </ol>
+  <hr>
+
+  <ul>
+    <li>Front-end Developer</li>
+    <ul>
+      <li>more developers</li>
+    </ul>
+    <li>Back-end Developer</li>
+  </ul>
+  <hr>
+
+  <!--Definitions list-->
+  <dl>
+    <dt>Front-end Developer</dt>
+    <dd>some dude on the internet</dd>
+    <dt>Back-end Developer</dt>
+    <dd>some dude who knows Java</dd>
+  </dl>
+  <hr>
+
+  <!--Simple image-->
+  <img src="https://www.tesstea.co.uk/upload/resize_cache/iblock/d72/231_231_240cd750bba9870f18aada2478b24840a/k3cxh3vs4rchfg5vcv5n3uhrlphyume0.png" alt="just image">
+  <br>
+  <!--Responsive image-->
+  <picture>
+    <source media="(min-widht: 1024px)" srcset="https://www.tesstea.co.uk/upload/resize_cache/iblock/d72/231_231_240cd750bba9870f18aada2478b24840a/k3cxh3vs4rchfg5vcv5n3uhrlphyume0.png">
+    <source media="(min-widht: 768px)" srcset="https://www.tesstea.co.uk/upload/resize_cache/iblock/d72/231_231_240cd750bba9870f18aada2478b24840a/k3cxh3vs4rchfg5vcv5n3uhrlphyume0.png">
+    <source media="(min-widht: 340px)" srcset="https://www.tesstea.co.uk/upload/resize_cache/iblock/d72/231_231_240cd750bba9870f18aada2478b24840a/k3cxh3vs4rchfg5vcv5n3uhrlphyume0.png">
+    <img src="https://www.tesstea.co.uk/upload/resize_cache/iblock/d72/231_231_240cd750bba9870f18aada2478b24840a/k3cxh3vs4rchfg5vcv5n3uhrlphyume0.png">
+  </picture>
+  <hr>
+
+  <!--Image with semantic description. You can add more than 1 img here-->
+  <figure>
+    <img src="https://www.tesstea.co.uk/upload/resize_cache/iblock/d72/231_231_240cd750bba9870f18aada2478b24840a/k3cxh3vs4rchfg5vcv5n3uhrlphyume0.png" alt="just image">
+    <figcaption>simple picture</figcaption>
+  </figure>
+  <hr>
+
+  <!--Minimum valid markup for table-->
+  <table>
+    <tr>
+      <td>Front-end</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!--Table raw with data-->
+  <table>
+    <tr>
+      <td>Front-end</td>
+      <td>Back-end</td>
+      <td>Full-stack</td>
+      <td>QA</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!--Table column with data-->
+  <table>
+    <tr>
+      <td>Front-end</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+    </tr>
+    <tr>
+      <td>QA</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!--Simple example of table-->
+  <table>
+    <tr>
+      <td>Front-end</td>
+      <td>Front-end</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+      <td>Back-end</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+      <td>Full-stack</td>
+    </tr>
+    <tr>
+      <td>QA</td>
+      <td>QA</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!--Table with caption-->
+  <table>
+    <caption>Team members list</caption>
+    <tr>
+      <td>Front-end</td>
+      <td>Front-end</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+      <td>Back-end</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+      <td>Full-stack</td>
+    </tr>
+    <tr>
+      <td>QA</td>
+      <td>QA</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!--Table with semantic sections-->
+  <table>
+    <caption>Team members list</caption>
+    <thead>
+      <tr>
+        <td>Speciality</td>
+        <td>Major</td>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Front-end</td>
+      <td>Front-end</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+      <td>Back-end</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+      <td>Full-stack</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+      <td></td>
+      <td>QA</td>
+    </tr>
+    </tfoot>
+  </table>
+  <hr>
+
+  <!--Colspan in tfoot and th tag for table head-->
+  <table>
+    <caption>Team members list</caption>
+    <thead>
+    <tr>
+      <th>Speciality</th>
+      <th>Major</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Front-end</td>
+      <td>Front-end</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+      <td>Back-end</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+      <td>Full-stack</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+      <td colspan="2">QA QA QA QA</td>
+    </tr>
+    </tfoot>
+  </table>
+  <hr>
+
+  <!--Simple link-->
+  <a href="https://youtu.be/_J6hMLsscOo">YouTube</a>
+  <hr>
+
+  <!--Download link-->
+  <a href="text.txt" download>Download</a>
+  <hr>
+
+  <!--Open link in new tab-->
+  <a href="https://youtu.be/_J6hMLsscOo" target="_blank">YouTube</a>
+  <hr>
+
+  <!--Open standard application on your PC to make action-->
+  <a href="tel:+123-32-32">+123-32-32</a>
+  <br>
+  <a href="mailto:gogalsh@gmail.com">my e-mail</a>
+  <br>
+  <a href="skype:test">Skype call</a>
+  <hr>
+
+  <!--Anchor link-->
+  <a href="#bottom">go to text at he top</a> <!--The # is an id which dedicated to appropriate part of a code in the project-->
+  <hr>
+
+  <!--Simple buttons-->
+  <button type="button">Button</button>
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+  <hr>
+
+  <!--Button with autofocus-->
+  <button type="button" autofocus>Button</button>
+  <hr>
+
+  <!--Disabled button-->
+  <button type="button" disabled>Button</button>
+  <hr>
+
+  <!--Abbreviation-->
+  <abbr title="HyperText Markup Language">HTML</abbr> was created in 1993
+  <hr>
+
+  <!--List of options-->
+  <input list="list">
+  <datalist id="list">
+    <option value="Front-end"></option>
+    <option value="Back-end"></option>
+    <option value="Full-stack"></option>
+  </datalist>
+  <hr>
+
+  <!--Meter-->
+  <meter value="0" max="100" low="10" high="60">Progress</meter>
+  <br>
+  <meter value="20" max="100" low="40" high="60">Progress</meter>
+  <br>
+  <meter value="80" max="100" low="10" high="60">Progress</meter>
+  <br>
+  <meter value="100" max="100">Progress</meter>
+  <hr>
+
+  <!--Progress bar-->
+  <progress value="30" max="100"></progress>
+  <hr>
+
+  <!--No scripts tag-->
+  <noscript>Please switch on scripts in your browser!</noscript>
+
+  <!--Marked text-->
+  <mark>Marked</mark>
+  <h2>To know HTML <mark>semantic</mark> is important</h2>
+  <hr>
+
+  <!--Canvas-->
+  <canvas id="example" width="200" height="200">
+    <script>
+      const drawingCanvas = document.getElementById('example');
+      if (drawingCanvas && drawingCanvas.getContext) {
+        const context = drawingCanvas.getContext('2d');
+        context.fillStyle = "#000";
+        context.beginPath();
+        context.arc(100, 100, 100, 0, Math.PI * 2, true);
+        context.closePath();
+        context.stroke();
+        context.fill();
+      }
+    </script>
+  </canvas>
+  <hr>
+
+  <!--Header-->
+  <header>
+    HEADER
+    <!--Main navigation-->
+    <nav>
+      NAVIGATION
+    </nav>
+  </header>
+  <main>
+    MAIN
+    <!--Independent block-->
+    <section>
+      SECTION
+      <!--Place of news, articles-->
+      <article>ARTICLE 1</article>
+      <article>ARTICLE 2</article>
+      <article>ARTICLE 3</article>
+    </section>
+    <section>
+      SECTION
+      <article>ARTICLE 4</article>
+    </section>
+  </main>
+  <!--Additional information-->
+  <aside>ASIDE</aside>
+  <!--Footer-->
+  <footer>FOOTER</footer>
+  <hr>
+
+  <!--Simple form-->
+  <form action="formHandler.js" name="simple form" autocomplete="on">
+    <input type="text">
+    <br>
+    <select>
+      <option value="Front-end">Front-end</option>
+      <option value="Back-end">Back-end</option>
+    </select>
+    <br>
+    <textarea rows="10" cols="45" name="text"></textarea>
+    <br>
+    <input type="submit">
+    <br>
+  </form>
+  <hr>
+
+  <!--Fieldset & label-->
+  <form action="formHandler.js" name="simple form2">
+    <fieldset>
+      <legend>Simple form legend</legend>
+      <input type="text">
+      <br>
+      <select>
+        <option value="Front-end">Front-end</option>
+        <option value="Back-end">Back-end</option>
+      </select>
+      <br>
+      <textarea rows="10" cols="45" name="text"></textarea>
+      <br>
+      <input type="submit">
+      <br>
+    </fieldset>
+  </form>
+  <hr>
+
+  <!--Inner fieldset & label-->
+  <form action="formHandler.js" name="simple form3">
+    <fieldset>
+      <legend>Personal Data</legend>
+      <input type="text">
+      <br>
+      <select>
+        <option value="Front-end">Front-end</option>
+        <option value="Back-end">Back-end</option>
+      </select>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>Personal Message</legend>
+      <textarea rows="10" cols="45" name="text"></textarea>
+      <br>
+    </fieldset>
+    <input type="submit">
+    <br>
+  </form>
+  <hr>
+
+  <!--Form element label-->
+  <label for="username">Username</label>
+  <input type="text" id="username">
+  <br>
+  <label>
+    Password
+    <input type="password">
+  </label>
+  <br>
+  <input type="submit">
+  <hr>
+
+  <!--Result form-->
+  <form action="formHandler.js" name="simple form4">
+    <fieldset>
+      <legend>Personal data</legend>
+      <label for="name">Your name</label>
+      <input type="text" id="name">
+      <br>
+      <label for="speciality">Choose your speciality</label>
+      <select id="speciality">
+        <option value="Front-end">Front-end</option>
+        <option value="Back-end">Back-end</option>
+      </select>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>Personal message</legend>
+      <label for="message"></label>
+      <textarea id="message" spellcheck="true" rows="10" cols="45" name="text">Enter your message here</textarea>
+      <br>
+    </fieldset>
+    <input type="submit">
+  </form>
+  <hr>
+
+  <!--Text area-->
+  <textarea rows="10" cols="45"></textarea>
+  <br>
+  small
+  <textarea rows="5" cols="20" name="test"></textarea>
+  <br>
+  autofocus
+  <textarea rows="5" cols="20" autofocus></textarea>
+  <br>
+  disabled
+  <textarea rows="5" cols="20" disabled></textarea>
+  <br>
+  read only
+  <textarea rows="5" cols="20" readonly>This text you cannot change</textarea>
+  <br>
+  place holder
+  <textarea rows="5" cols="20" placeholder="your message..."></textarea>
+  <br>
+  max length
+  <textarea rows="5" cols="20" maxlength="5" placeholder="max symbols = 5"></textarea>
+  <br>
+  required
+  <textarea rows="5" cols="20" required></textarea>
+  <br>
+  <input type="submit" value="send">
+  <hr>
+
+  <!--Select-->
+  <select>
+    <option value="Front-end">Front-end</option>
+    <option value="Back-end">Back-end</option>
+  </select>
+  <hr>
+
+  <!--Select with group-->
+  <select>
+    <optgroup label="Speciality">
+      <option value="Front-end">Front-end</option>
+      <option value="Back-end">Back-end</option>
+    </optgroup>
+    <optgroup label="Direction">
+      <option value="Front-end">Front-end</option>
+      <option value="Back-end">Back-end</option>
+    </optgroup>
+  </select>
+  <hr>
+
+  <!--Multiple select-->
+  <select multiple>
+    <option value="Front-end">Front-end</option>
+    <option value="Back-end">Back-end</option>
+  </select>
+  <hr>
+
+  <!--Different option-->
+  <select>
+    <option value="Front-end">Front-end</option>
+    <option value="Back-end">Back-end</option>
+    <option value="sel" selected>Selected</option>
+    <option value="dis" disabled>Disabled</option>
+  </select>
+  <hr>
+
+  <!--Input text-->
+  <input type="text">
+  <hr>
+
+  <!--Input number-->
+  <input type="number">
+  <br>
+  <input type="number" min="1" max="10">
+  <br>
+  <input type="number" step="5">
+  <hr>
+
+  <!--Input password-->
+  <input type="password">
+  <hr>
+
+  <!--Input range-->
+  <input type="range" >
+  <hr>
+
+  <!--Input date-->
+  <input type="date">
+  <hr>
+
+  <!--Input color-->
+  <input type="color">
+  <hr>
+
+  <!--Input submit & reset-->
+  <input type="submit">
+  <br>
+  <input type="reset">
+  <hr>
+
+  <!--Custom submit & reset-->
+  <input type="submit" value="Submit form">
+  <br>
+  <input type="reset" value="Reset value">
+  <hr>
+
+  <!--Input file-->
+  <input type="file">
+  <br>
+  <input type="file" multiple>
+  <hr>
+
+  <!--Check box-->
+  <input type="checkbox" value="option1">
+  <br>
+  <input type="checkbox" value="option2">
+  <br>
+  <input type="checkbox" value="option3">
+  <hr>
+
+  <!--Input radio-->
+  <input type="radio" name="value" value="option1">
+  <br>
+  <input type="radio" name="value" value="option2">
+  <br>
+  <input type="radio" name="value" value="option3">
+  <hr>
+
+  <!--Checkbox with label-->
+  <label>
+    <input type="checkbox" value="option1">
+    Front-end
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" value="option2">
+    Back-end
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" value="option3">
+    Full-stack
+  </label>
+  <hr>
+
+  <!--Style-->
+  <h2 style="color: red">CSS</h2>
+  <hr>
+
+  <!--Editable-->
+  <h2 contenteditable="true">You can edit this text</h2>
+  <hr>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
